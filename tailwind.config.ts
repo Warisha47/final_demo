@@ -4,7 +4,9 @@ const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx,mdx}", // Added for capital C
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // Added to catch all src files
   ],
   theme: {
     extend: {
@@ -17,4 +19,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
